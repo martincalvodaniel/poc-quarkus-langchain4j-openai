@@ -1,8 +1,17 @@
 # poc-quarkus-langchain4j-openai
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+## Sources
 
-If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
+* https://developers.redhat.com/articles/2024/02/07/how-use-llms-java-langchain4j-and-quarkus#send_the_blog_content_to_openai
+* https://docs.quarkiverse.io/quarkus-langchain4j/dev/openai.html
+
+## Playground
+
+```shell script
+curl -X 'POST' \
+  'http://localhost:8080/blog-reader/read' \
+  -d 'https://www.redhat.com/en/blog/the-power-of-ai-is-open'
+```
 
 ## Running the application in dev mode
 
